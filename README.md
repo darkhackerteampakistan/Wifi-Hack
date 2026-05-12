@@ -26,3 +26,7 @@
 
 ```bash
 pkg update && pkg upgrade -y
+
+## STEP  2 : PYTHON INSTALL করুন
+```bash
+pkg install python -y
