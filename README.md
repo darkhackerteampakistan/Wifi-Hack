@@ -1,81 +1,28 @@
 # Wifi-Hack
 
-==========================================
-📦 SAFE BACKUP TOOL
-Developer: Md Rifat Islam
-==========================================
+# 📦 SAFE BACKUP TOOL (Termux)
 
-⚠️ IMPORTANT:
-এই টুলটি ফোনের গুরুত্বপূর্ণ ফাইল (Photo, Video, Audio, Documents) একসাথে ZIP করে ব্যাকআপ তৈরি করে।
+👨‍💻 Developer: 
+📱 Platform: Android (Termux)
 
-👉 কোনো ডাটা ইন্টারনেটে পাঠায় না
-👉 শুধু লোকাল backup.zip তৈরি করে
+---
 
-==========================================
-🟢 REQUIREMENTS (TERMUX SETUP)
-==========================================
+## ⚠️ IMPORTANT NOTICE
+এই টুলটি শুধুমাত্র আপনার নিজের ফোনের ফাইল (Photos, Videos, Audio, Documents) লোকালভাবে ব্যাকআপ করার জন্য।
 
-1️⃣ Termux Update
+✔ কোনো ডাটা অনলাইনে পাঠায় না  
+✔ শুধু ZIP ফাইল তৈরি করে  
+✔ নিরাপদ অফলাইন ব্যাকআপ টুল  
+
+---
+
+# 🚀 FULL INSTALLATION GUIDE
+
+---
+
+## 🟢 STEP 1: Termux Update করুন
+
+👉 প্রথমে Termux আপডেট করতে হবে
+
+```bash
 pkg update && pkg upgrade -y
-
-2️⃣ Python Install
-pkg install python -y
-
-3️⃣ Storage Permission
-termux-setup-storage
-
-👉 Allow চাপতে হবে
-
-==========================================
-🟢 REQUIRED LIBRARY
-==========================================
-
-pip install zipfile
-
-(👉 zipfile সাধারণত আগে থেকেই থাকে, তবুও লাগলে দিন)
-
-==========================================
-🟢 RUN TOOL
-==========================================
-
-cd /sdcard/Download
-python backup_tool.py
-
-==========================================
-🟢 OUTPUT
-==========================================
-
-📦 backup.zip ফাইল তৈরি হবে এখানে:
-/sdcard/backup.zip
-
-এর ভিতরে থাকবে:
-✔ Download files
-✔ DCIM (Photos & Videos)
-✔ Pictures
-✔ Movies
-✔ Music
-✔ Documents
-
-==========================================
-🟢 FEATURES
-==========================================
-
-✔ Fast file scan
-✔ Progress bar
-✔ Single ZIP backup
-✔ No internet required
-✔ Safe local storage backup
-
-==========================================
-🟢 TROUBLESHOOT
-==========================================
-
-❌ Module not found:
-pip install requests (যদি অন্য script লাগে)
-
-❌ Permission issue:
-termux-setup-storage আবার চালাও
-
-==========================================
-✨ END OF README
-==========================================
